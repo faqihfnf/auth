@@ -1,0 +1,21 @@
+POST http://localhost:8000/register
+Content-Type: application/json
+
+{
+    "name": "Faqih",
+    "email": "faqih.fnf@gmail.com",
+    "password":"cobacoba1234"
+}
+
+###login user
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+   "email": "faqih.fnf@gmail.com",
+    "password":"cobacoba1234"
+}
+
+### resources
+GET http://localhost:8000/resources
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YjIyZGJmNzI0ZmMzNTZhOTMxMjExZSIsIm5hbWUiOiJGYXFpaCIsImVtYWlsIjoiZmFxaWguZm5mQGdtYWlsLmNvbSIsImlhdCI6MTcyMzA3NTA4NSwiZXhwIjoxNzIzMDc1MTAwfQ.EbdTEwzxo09fm1bufLBmjs_uOC7fFaU--a3Es-7I6No
